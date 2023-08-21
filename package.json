@@ -1,0 +1,32 @@
+{
+  "name": "vinni",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@strapi/plugin-i18n": "4.12.4",
+    "@strapi/plugin-users-permissions": "4.12.4",
+    "@strapi/provider-upload-cloudinary": "^4.12.4",
+    "@strapi/strapi": "4.12.4",
+    "better-sqlite3": "8.5.0",
+    "strapi-plugin-populate-deep": "^3.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "7bbd3a91-5fe8-4bb6-9c52-5054d0157334"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
